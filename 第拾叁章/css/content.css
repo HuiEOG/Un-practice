@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+	#content body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;}
+	#content h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:normal;}
+	#content ol,ul{ list-style:none;}
+	#content img,fieldset{ border:0 none; display:block;}
+	
+	#content *{margin:0;}
+	
+	#content{width: 1060px;height: 25px;}
+	
+	#content ul{display: flex;justify-content:space-between;}
+
+	#content li:after{content: ''; display: block;width: 100%;height: 3px;background-color: darkslategrey;}
+	
+	#content ul li p{padding: 2px 50px;background-color:darkgray;line-height: 24px;color:aliceblue;}
+	
+	#content ul li{max-height: 25px;overflow:hidden;transition: 0.5s;border-bottom: 2px  solid #7F92A4;}
+	
+	#content ul{list-style:none;}
+
+	#content ul li:hover{max-height:50px;}
+	
+	#content h3:before{content: 'X';position: absolute;top: 0px;left: 30px;transition: 0.5s;color:floralwhite}
+	
+	#content h3:hover{transition: 0.5s;}
+	
+	#content h3:hover:before{transform: rotate(180deg);transition: 1s;}
+	
+	#content h3{text-align: center;cursor:pointer;}
+	
+	#content h3{ height: 25px;line-height: 25px;position: relative;border-top-left-radius:7px;border-top-right-radius: 7px;background-image:url(../Image/content-barkgroundS.png);color:cyan}
+	
+	#content p{background-image: url(../Image/content-p-barkgrountX.png);}

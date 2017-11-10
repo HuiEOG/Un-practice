@@ -1,0 +1,351 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="TiTi,titi,TITI,黑黯，世界，新手网页">
+<meta name="Description" content="这是个黯无边际，TiTi将降临这个世界，为吾的诞生献上礼炮...~~">
+<title>TiTi黑黯世界</title>
+<link rel="stylesheet" href="css/top.css" type="text/css">
+<link rel="stylesheet" href="css/content.css" type="text/css">
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script> 
+<script src="js/jquery-1.10.1.js"></script>
+<script src="js/top.js"></script>  <script type="text/javascript" src="js/dd.js"></script>
+<!--整体-->
+<style type="text/css">
+	.display{width: 100%;}
+</style>
+<!--头顶-->
+<style>
+	body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;}
+	h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:normal;}
+	ol,ul{ list-style:none;}
+	img,fieldset{ border:0 none; display:block;}
+	
+	*{margin:0;}
+	
+	.hrd{width: 100%;height: 40px;opacity: 0.6;background-color: lightgrey;}
+	
+	
+	.hrd-dv{margin: 0px auto;width: 1020px;height: 40px;display: flex; justify-content: space-between;}
+	
+	.hrd-dv-div{width: 60px;height: 40px;transition: 1s;}
+	
+	.hrd-dv-div:hover{background-color: #8B8888;}
+	
+	.hrd-dv-div-list,.hrd-dv-div-pic{width: 60px;height: 40px;background-color: lightgrey;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;transition: transform 1s;}
+	
+	.hrd-dv-div-list{position: absolute;}
+	.hrd-dv-div-pic{transform:rotateX(90deg);opacity: 0.5;}
+	.hrd-dv-div-list-p,.hrd-dv-div-pic-p{text-align: center;color:navy;line-height: 35px}
+	.hrd-dv-div:hover .hrd-dv-div-list{transform: rotateX(90deg);}
+	.hrd-dv-div:hover .hrd-dv-div-pic{transform: rotateX(0deg);}
+	
+</style>
+<style>
+	.button{width: 40px;height: 40px;border-radius: 50%;background-image: url(Image/gta5.png);outline:none;}
+	.button:hover{border: 2px solid #777777;transition: 1s;}
+	
+	.div{max-width:40px;height: 40px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;overflow: hidden; transition:1s;text-decoration: none;}
+	
+	.formiv{display: flex;justify-content:space-between;max-width: 300px;height: 40px;border-bottom-left-radius:10px;border-bottom-right-radius:10px; transition:1s;float: right;text-decoration: none;}
+	
+	.inputdiv{display: flex;flex-direction: column;;height: 20px;}
+	
+	.input{border-top-left-radius: 5px;border-bottom-right-radius: 5px;flex-shrink: <1>;border: 1px solid #A3C2CF}
+	
+	.surbit{border: 1px solid #A8B0C8;background-color: #4472DC;border-radius: 5px;color: #FDFDFD;cursor: pointer;}
+	
+	.surbit:hover{border: 1px solid #A8B0C8;background-color:#000DFD;border-radius: 5px;color: #FDFDFD;}
+	
+	
+</style>
+<!--平滑,作者：平凡执着
+链接：http://www.jianshu.com/p/14aa15c63e9c
+來源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。-->
+<script type="text/JavaScript">  
+$(document).ready(function() {  
+ var $root = $('html, body');  //选择器缓存起来。这样每次点击时就不需要再重新查找了
+ $('a').click(function() {
+     var href = $.attr(this, 'href');
+     $root.animate({
+         scrollTop: $(href).offset().top
+     }, 500, function () {
+         window.location.hash = href;
+     });
+     return false;
+ });
+});  
+</script>
+<!-- 浮动窗口调用的文件 -->
+<style type="text/css">
+.ab{
+	position:fixed;
+	top:30px;
+
+}
+</style>
+<!--[if IE 6]>
+<style type="text/css">
+html{overflow:hidden}
+body{height:100%;overflow:auto}
+.ab{position:absolute;left:0px;}
+</style>
+<![endif]-->
+<script type="text/javascript">
+function scrollLis(){
+	var toTop = offs.top-$(window).scrollTop();
+	if(toTop==60||toTop<60){
+		if(!$('#fixed').hasClass('ab'))$('#fixed').addClass('ab');
+	}else{
+		$('#fixed').removeClass('ab');
+	}
+}
+</script>
+<!--图片显消-->
+<script type="text/javascript">
+$(function(){
+/*碰到*/$("#q").mouseenter(function(){
+$("#b").removeClass('c');
+});
+/*离开*/$("#q").mouseleave(function(){
+$("#b").addClass('c');
+});
+});
+</script>
+<style>.c{opacity: 0;}</style>
+<!--大部分内部样式表-->
+<style>	
+	
+	.Rlink a:link{text-decoration: none;color:slategray}
+	.Rlink a:hover{text-decoration:none;color:darkmagenta}	
+	.body{background:url(Image/33333.jpg) ;background-size:cover;background-repeat: no-repeat;background-attachment: fixed;margin:0 auto;}
+	#ddi{margin:0 auto;border:1px solid #000;width:1020px;text-align: center;}
+	.underbody{filter: opacity(60);-moz-opacity:0.6;opacity: 0.6;width:100%;height:250px;background-color: lightsteelblue;clear:both;text-align:center;padding-top:20px;}
+	.under{filter: opacity(100);-moz-opacity:1;opacity: 1;width:1020px;height:200px;clear:both;text-align:center;padding-top:20px;padding-left: 23%;padding-right: 23%;}
+	.two{filter: opacity(100);-moz-opacity: 1;opacity: 1;padding-top:15px;padding-bottom: 15px;}
+	.four{width:1020px;height: 100px;margin-bottom: 3px;margin-left: 100px;}
+	.fli{width: 260px;height: 80px;text-align: left;float:left;list-style-type: none;margin-right: 60px;border-right: 2px solid #ACACAC;}
+	.tips{margin-bottom: 22px;text-align: left;width: 300px;height:14px;color: royalblue;}
+	.cards{width: 130px;height: 14px;margin-bottom:46px;float: left;}
+	.cards a:link{text-decoration: none;color:dimgrey}
+	.cards a:hover{text-decoration:none;color:darkviolet}
+	.block left{color: powderblue;font-size: 20px;}
+	/*下面是悬浮栏*/
+	*message{margin: 0;}
+	.message{width: 60px;height: 200px;margin: 20px auto;border-radius: 15px;background-color: lightgray;border: solid  #C0BCBC;margin-left: 30px;}
+	.messagelist{width: 60px;height: 50px;perspective: 1000px;}
+	.listtop,.listud{width: 60px;height: 50px;transition: transform 0.5S;border-radius: 15px;}
+	.listtop{background-color:lightgray;position: absolute;}
+	.listud{ transform: rotateY(90deg);opacity: 0.7;}
+	.messagelist:hover .listtop{transform: rotateY(-90deg)}
+	.messagelist:hover .listud{transform: rotateY(0deg)}
+	.listtop-text{text-align: center;margin: 15px auto;}
+</style>
+</head>
+<body class="body">
+<div align="center" class="display">
+<!--头部-->
+<div style="width: 100%;height: 200px;background-image: url(Image/heard-imagin.jpg);background-repeat:round;display: flex;flex-direction: column;justify-content: space-between;">
+
+<div class="hrd">
+<div class="hrd-dv">
+<div class="hrd-dv-div">
+		<div class="hrd-dv-div-list">
+			<p class="hrd-dv-div-list-p">全屏</p>
+		</div>
+		<div class="hrd-dv-div-pic">
+			<p class="hrd-dv-div-pic-p">中部</p>
+		</div>
+	</div>	
+<div id="dd" class="dd">
+	<form class="div">
+		<button type="button" class="button">	</button>			
+			<div class="inputdiv">
+			<input class="input" type="text" name="account"  value="" placeholder="Account">
+			<input class="input" type="text" name="account"  value="" placeholder="Password">
+			</div>
+			<input class="surbit"  type="submit"  value="提交">	
+	</form>
+		
+		</div>
+	
+	
+</div>
+ </div>
+
+ <!--下拉栏-->
+<div id="content">
+	<ul>
+		<li><h3>命运</h3><p>渺小</p></li>
+		<li><h3>世界</h3><p>破碎</p></li>
+		<li><h3>毁灭</h3><p>崩溃</p></li>
+		<li><h3>黑黯</h3><p>绝望</p></li>
+	</ul>
+</div>	 
+</div>
+<!--中部-->
+<div style="width:1060px;height: auto;" >
+
+<!--中间主体内容-->
+<div style="float: left;width: 600px;height: auto;">
+<hr style="width:1060px;"color="#9B9797"/>
+<!--bilibili-->
+<div id="Bi" style="width:1060px;height: 700px;text-align: center">
+<div >
+<table>
+<th>
+<a href="http://www.bilibili.com" target="_blank"><img src="Image/tttt改.png"title="哔哩哔哩 (゜-゜)つロ 干杯~-bilibili" style="float: left"></a>
+</th>
+</table>
+</div>
+<!--不会用样式-->
+<div style="float: left;width: 730px;height: 600px;" id="Bi">
+ <iframe src="http://www.bilibili.com" height="600" width="730" frameborder="0";></iframe>
+ </div>
+<!--右表格背景与文字-->
+<div style="background: url(Image/sitt.png); background-repeat: round;width: 330px;height: 600px;float: left;">
+<p align="left" style="color:deeppink;font-size:21px;margin: 0;padding: 0;">
+ &nbsp;&nbsp;<em>bilibili</em>现为国内最大的年轻人潮流文化娱乐社区，该网站于2009年6月26日创建，又称“B站”。目前bilibili活跃用户超过1.5亿，每天视频播放量超过一亿，弹幕总量超过14亿，原创投稿总数超过1000万，用户平均年龄17岁，75%的用户年龄在24岁以下。 <br/>
+&nbsp;&nbsp;<em>bilibili</em>网站的特色是悬浮于视频上方的实时评论功能，爱好者称其为“弹幕”，这种独特的视频体验让基于互联网的即时弹幕能够超越时空限制，构建出一种奇妙的共时性的关系，形成一种虚拟的部落式观影氛围，让bilibili网站成为极具互动分享和二次创造的潮流文化娱乐社区。
+<br/>&nbsp;&nbsp;<em>bilibili</em>网站目前也是众多网络热门词汇的发源地之一。
+</p>
+</div>
+</div>
+<hr style="width:1060px"color="#9B9797"/>
+
+<!--pixiv-->
+<div id="Pi" style="width:1060px;height: 700px;text-align: center">
+<div >
+<table>
+<th>
+<a href="https://www.pixiv.net/" target="_blank"><img src="Image/pixiv改.png" title="需要VPN" style="float: left"></a>
+</th>
+</table>
+</div>
+<!--不会用样式-->
+<div style="float: left;width: 730px;height: 600px;">
+ <iframe src="https://www.pixiv.net/" height="600" width="730" frameborder="0";></iframe>
+ </div>
+<!--右表格背景与文字-->
+<div style="background: url(Image/pixiv背景.jpg); background-repeat: round;width: 330px;height: 600px;float: left;">
+<p align="left" style="color:darkblue;font-size:16px;margin: 0;padding: 0;">
+<em>&nbsp;&nbsp;Pixiv</em>，是一个主要由日本艺术家所组成的虚拟社群，主体为由pixiv股份制有限公司所运营的为插画艺术特化的社交网络服务网站。新兴的日本同人画、插画作品分享站点。采用了web2.0的方式，每个参与者都有自己的主页并可以对作品评价打分。
+<br/>&nbsp;&nbsp;<em>pixiv</em>于2007年9月10日由上谷隆宏等人首次推出第一个测试版，当前Pixiv公司总部位于日本涩谷区的千駄谷。
+<br/>&nbsp;&nbsp;<em>截至</em>2010年5月，pixiv已拥有超过200万会员、1100万份作品，并每天会收到超过2万份原创作品。而在2010年1月时，该网站平均每天约被访问约34万次；2010年5月统计时，则每个月平均约有15亿次浏览数。至2011年7月，pixiv约有400万会员，2000万份作品，每日投稿数2.5万份，一个月25亿次浏览。
+在2012年9月5日里（运营期间数1,822天之后），pixiv的总用户数已经达到500万人了，总投稿数2990万份作品，并月间PV也到达了33亿！
+<br/>&nbsp;&nbsp;<em>pixiv</em>目的是提供一个能让艺术家发表他们的插图，并透过评级系统反应其他用户意见之处，网站以用户投稿的原创的图像为中心，辅以标签、书签、作品回应、排行榜等功能形成具有其特色的社交网络。
+</p>
+</div>
+</div>
+<hr style="width:1060px;"color="#9B9797"/>
+
+<!--AcFun-->
+<div id="AF" style="width:1060px;height: 700px;text-align: center">
+<div >
+<table>
+<th>
+<a href="http://www.acfun.cn/" target="_blank"><img src="Image/AcFun.png" title="AcFun弹幕视频网 - 认真你就输啦 (・ω・)ノ- ( ゜- ゜)つロ" style="float: left"></a>
+</th>
+</table>
+</div>
+<!--不会用样式-->
+<div style="float: left;width: 730px;height: 600px;" id="AF">
+ <iframe src="http://www.acfun.cn/" height="600" width="730" frameborder="0";></iframe>
+ </div>
+<!--右表格背景与文字-->
+<div style="background: url(Image/11111.jpg); background-repeat: round;width: 330px;height: 600px;float: left;">
+<p align="left" style="color:darkturquoise;font-size:10px;margin: 0;padding: 0;">
+ &nbsp;&nbsp;<em>AcFun</em>弹幕视频网，简称“A站”，成立于2007年6月，取意于Anime Comic Fun，是中国大陆第一家弹幕视频网站。
+<br/>&nbsp;&nbsp;A站以视频为载体，逐步发展出先锋内容创作的完整生态，拥有高质量互动弹幕，是中国弹幕文化的发源地；拥有大量超粘性的用户群体，产生输出了金坷垃、鬼畜全明星、我的滑板鞋、小苹果等大量网络流行文化，也是中国二次元文化的发源地。
+<br/>&nbsp;&nbsp;视频分为“动画”（mad类）“音乐”（主要为东方题材。Vocaloid题材，以及其他动漫歌曲）“游戏”（各类游戏演示恶搞。以前是以东方类为主，现在以MUGEN类为最多）“娱乐”（真人视频，雷比较多）“文章”（大量政治、军事相关文章辅以少量OTAKU文章）“番剧”（各种二次元、三次元新、旧番，该区现已改版 ，该区视频一般会出现在首页的最下方。)
+<br/>&nbsp;&nbsp;超粘性的二次元用户社交使A站具有活跃的评论氛围、以弹幕内容为载体的正能量社交互动体系，并使A站具有产生和上浮“创意”内容的能力，由此产生了金坷垃、鬼畜全明星、我的滑板鞋、小苹果等网络流行文化。此外，A站多元化的线上专题，在用户中拥有高的地位。
+<br/>&nbsp;&nbsp;最初作弹幕视频网站，以视频为载体，逐步发展出基于原生内容二次创作的完整生态，以高质量互动弹幕内容为特色，获得了超粘性的用户群体，累积了大量80后、90后、二次元核心用户，产生输出了大量网络流行文化，是国内主要的二次元年轻人聚集地之一，是ACGN（动画、漫画、游戏、小说）文化爱好者的聚集圣地。2015年后，A站流量持续高速增长，进入Alexa全球网站排名前600位。
+<br/>&nbsp;&nbsp;“弹幕”一词，指大量吐槽评论从屏幕飘过时效果看上去像是飞行射击游戏里的弹幕，所以日本网民将这种有大量的吐槽评论出现时的效果叫做弹幕，弹幕的日语发音为“Danmaku”，它已经成为了一种特殊播放器的特色，弹幕系统则是弹幕播放器的核心。
+<br/>&nbsp;&nbsp;弹幕的正确读音为“dàn mù”，少量读“tán mù”的用户，在很多时候被认为是对宅文化以及词源历史了解不够全面。
+<br/>&nbsp;&nbsp;2007年，A站首先将“弹幕”引入国内
+</p>
+</div>
+</div>
+<hr style="width:1060px;"color="#9B9797"/>
+
+<!--dilidili-->
+<div id="DD" style="width:1060px;height: 700px;text-align: center">
+<div >
+<table>
+<th>
+<a href="http://www.dilidili.wang" target="_blank"><img src="Image/dilidli.jpg" title="嘀哩嘀哩，这里是兴趣使然的无名小站（D站）_dilidili" style="float: left"></a>
+</th>
+</table>
+</div>
+<!--不会用样式-->
+<div style="float: left;width: 730px;height: 600px;" id="DD">
+ <iframe src="http://www.dilidili.wang" height="600" width="730" frameborder="0";></iframe>
+ </div>
+<!--右表格背景与文字-->
+<div style="background: url(Image/dilidili背.jpg); background-repeat: round;width: 330px;height: 600px;float: left;">
+<p align="left" style="color:wheat;font-size:35px;margin: 0;padding: 0;">
+ &nbsp;&nbsp;<em>嘀哩嘀哩</em>是开发的无名小站，新作经典轮番推荐，无论您喜欢那种类型，嘀哩嘀哩都能为您一网打尽，为您带来一场美妙的动漫盛宴。这里是兴趣使然的无名小站
+</p>
+</div>
+</div>
+<hr style="width:1060px;"color="#9B9797"/>
+</div>
+<!--这是右侧漂浮栏-->
+<div class="rightside" style="  width:170px; height:320px;margin-left: 1060px;margin-top: 5px; text-align: center;">
+<div id="fixed" style="width: 100px;height: 320px;">
+<div  class="message">
+	<div class="messagelist"><a href="#Bi">
+		<div class="listtop"><p class="listtop-text">BiliBili</p></div>
+		<div class="listud"><img src="Image/tttt改.png" width="60" height="50px"/></div></a>
+	</div>
+	<div class="messagelist"><a href="#Pi">		
+		<div class="listtop"><p class="listtop-text">Pixiv</p></div>
+		<div class="listud"><img src="Image/pixiv改.png" width="60" height="50px"/></div></a>
+	</div>
+	<div class="messagelist"><a href="#AF">
+		<div class="listtop"><p class="listtop-text">AcFun</p></div>
+		<div class="listud"><img src="Image/AcFun.png" width="60" height="50px"/></div></a>
+	</div>
+	<div class="messagelist"><a href="#DD">
+		<div class="listtop"><p class="listtop-text">DiliDili</p></div>
+		<div class="listud"><img src="Image/dilidli.jpg" width="60" height="50px"/></div></a>
+	</div>
+
+
+</div>
+<div class="scroll" id="scroll" style="display:none;margin-left: 15px;">
+<img src="Image/haha.png" width="100" height="120"> 
+</div>
+
+<script type="text/javascript">
+var offs=$('#fixed').offset();
+$(window).scroll(function(){
+	scrollLis();
+});
+</script>
+</div>
+<div style=" clear:both;"></div>
+</div>
+</div>
+
+
+<!--底部-->
+<div class="underbody" align="center">
+<div class="under" id="margin">
+<div class="two">
+  <div>
+<ul class="four"><li class="fli"><div class="tips">TiLi</div>
+<div class="cards"><a target="_blank" href="">关于我们</a></div><div class="cards"><a target="_blank" href="">心累心累</a></div></li><li class="fli"><div class="tips">异世界之门</div><div class="cards"><a target="_blank" href="">帮助中心</a></div><div class="cards"><a target="_blank" href="download/我爱吔屎.zip">壁纸下载</a></div></li><li class="fli">
+  <div style="height: 70px;">
+    <div style="height: 70px;width: 100px;margin-right: 5px;float: left;"><div style="width: 35px;height: 35px;"><a  ><img id="q" src="Image/微信图标.png"></a></div><em>我的微信</em></div><div ><a ><img id="b" class="c" src="Image/二维码.jpg" ></a></div></div></li></ul>
+
+<div class="partner"><div class="block left" style="padding-top: 0px;"><div class="partner-banner"></div></div><divs style="margin: 0px 105px 0 55px;line-height:24px;float:none;"><p class="block left" >uuuuuuuuuuuu：<span>erwerwrwert</span> | 网络文化经营许可证：<span>rewrwrerwer</span> | kkdkaskdasd证：<span>000000</span> | 互联网ICP备案：<span>0000000000</span> 000000：<span>0000000000000</span> | 违法不良信息举报邮箱：help@mmp.com | 违法不良信息举报电话：0000000000000</p></div></div></div>
+</div>
+</div>
+
+</div>
+</body>
+</html>
+
