@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="夜半殇">
+  <meta name="Keywords" content="jQuery仿Key游戏风格转SAO右键菜单">
+  <meta name="Description" content="(～￣▽￣)～ 就是抄袭嘛,而且也不像SAOヽ(￣▽￣)ﾉ">
+  <title>(～￣▽￣)～ 就是抄袭嘛,而且也不像SAOヽ(￣▽￣)ﾉ</title>
+<link rel="stylesheet" type="text/css" href="css/GalMenu.css" />
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/GalMenu.js"></script>  
+<style type="text/css">
+body{
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	background:url('images/bgpic.jpg') no-repeat 0 0/cover fixed;
+}
+#content{
+	width:1900px;
+	height:900px;
+	margin:auto;
+}
+</style>
+ </head>
+ <body>
+	<div id="box">
+		<div id="content">	
+		</div>
+	<!--右键菜单-->
+	    <div class="GalMenu GalDropDown">
+	      <div class="circle" id="gal">
+	        <div class="ring">
+	          <a href="" target="_blank" title="首页" class="menuItem">首页</a>
+	          <a href="" target="_blank" title="博客" class="menuItem">博客</a>
+	          <a href="" target="_blank" title="时间轴风格的文章归档" class="menuItem">归档</a>
+	          <a href="" target="_blank" title="乱七八糟的东西" class="menuItem">杂货</a>
+	          <a href="" target="_blank" title="酷安日图" class="menuItem">日图</a>
+	          <a href="" target="_blank" title="留言" class="menuItem">留言</a>
+	        </div>
+	       <audio id="audio" src="audio/open.wav"></audio>
+	      </div>
+	    </div>
+	    <div id="overlay" style="opacity: 1; cursor: pointer;"></div>
+	<!--右键菜单-->
+	</div>
+ </body>
+<!--右键菜单-->
+<script type="text/javascript">
+	$(document).ready(function() {
+	$('body').GalMenu({
+	  'menu': 'GalDropDown'
+	});
+	$(document).on('click','.menuItem',function(){
+	  $(".circle").removeClass("open");
+	  $("#overlay").hide();
+	  $(".GalMenu").delay(400).hide(0);
+	});
+  });
+  </script>
+  <!--右键菜单-->
+</html>
